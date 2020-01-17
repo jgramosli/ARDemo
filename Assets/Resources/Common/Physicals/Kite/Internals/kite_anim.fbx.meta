@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: b5a5e3a145e602d459a892754a4dd91f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: kite_mesh
+    100004: MESH_GROUP
+    100006: RIG_GROUP
+    100008: skin_joint_group
+    100010: skin_L_tail_1_jnt
+    100012: skin_L_tail_2_jnt
+    100014: skin_L_tail_3_jnt
+    100016: skin_L_tail_4_jnt
+    100018: skin_L_tail_5_jnt
+    100020: skin_L_tail_6_jnt
+    100022: skin_L_tail_7_jnt
+    100024: skin_L_tail_8_jnt
+    100026: skin_M_tail_1_jnt
+    100028: skin_M_tail_2_jnt
+    100030: skin_M_tail_3_jnt
+    100032: skin_M_tail_4_jnt
+    100034: skin_M_tail_5_jnt
+    100036: skin_M_tail_6_jnt
+    100038: skin_M_tail_7_jnt
+    100040: skin_M_tail_8_jnt
+    100042: skin_R_tail_1_jnt
+    100044: skin_R_tail_2_jnt
+    100046: skin_R_tail_3_jnt
+    100048: skin_R_tail_4_jnt
+    100050: skin_R_tail_5_jnt
+    100052: skin_R_tail_6_jnt
+    100054: skin_R_tail_7_jnt
+    100056: skin_R_tail_8_jnt
+    100058: skin_root_jnt
+    100060: skin_spine_jnt
+    100062: skin_tail_parent_jnt
+    400000: //RootNode
+    400002: kite_mesh
+    400004: MESH_GROUP
+    400006: RIG_GROUP
+    400008: skin_joint_group
+    400010: skin_L_tail_1_jnt
+    400012: skin_L_tail_2_jnt
+    400014: skin_L_tail_3_jnt
+    400016: skin_L_tail_4_jnt
+    400018: skin_L_tail_5_jnt
+    400020: skin_L_tail_6_jnt
+    400022: skin_L_tail_7_jnt
+    400024: skin_L_tail_8_jnt
+    400026: skin_M_tail_1_jnt
+    400028: skin_M_tail_2_jnt
+    400030: skin_M_tail_3_jnt
+    400032: skin_M_tail_4_jnt
+    400034: skin_M_tail_5_jnt
+    400036: skin_M_tail_6_jnt
+    400038: skin_M_tail_7_jnt
+    400040: skin_M_tail_8_jnt
+    400042: skin_R_tail_1_jnt
+    400044: skin_R_tail_2_jnt
+    400046: skin_R_tail_3_jnt
+    400048: skin_R_tail_4_jnt
+    400050: skin_R_tail_5_jnt
+    400052: skin_R_tail_6_jnt
+    400054: skin_R_tail_7_jnt
+    400056: skin_R_tail_8_jnt
+    400058: skin_root_jnt
+    400060: skin_spine_jnt
+    400062: skin_tail_parent_jnt
+    2100000: kite_Material
+    4300000: kite_mesh
+    7400000: Alphabet_Phonics
+    7400002: Interactive_Enter
+    7400004: Interactive_Exit
+    7400006: Interactive_Loop
+    7400008: Interactive_Idle
+    9500000: //RootNode
+    13700000: kite_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kite_Material
+    second: {fileID: 2100000, guid: bdc4531b00efc144db7e605b03a00a53, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alphabet_Phonics
+      takeName: Alphabet_Phonics
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Interactive_Enter
+      takeName: Interactive_Enter
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Interactive_Exit
+      takeName: Interactive_Exit
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Interactive_Loop
+      takeName: Interactive_Loop
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Interactive_Idle
+      takeName: Interactive_Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
