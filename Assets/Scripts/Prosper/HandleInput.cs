@@ -27,6 +27,7 @@ public class HandleInput : MonoBehaviour
     Camera mainCamera;
     [SerializeField]
     ARSessionOrigin sessionOrigin;
+    public SpawnItemsToBeFound spawner;
 
     GameObject _instantiatedCharacter;
     NavMeshAgent _characterNavAgent;
@@ -74,8 +75,6 @@ public class HandleInput : MonoBehaviour
 
     public void OnValueChanged(float sliderScale)
     {
-        Debug.Log("Slider Scale:" + sliderScale);
-
         sessionOrigin.transform.localScale = new Vector3(sliderScale, sliderScale, sliderScale);
     }
 
@@ -89,7 +88,6 @@ public class HandleInput : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, 500, physicalLayerMask))
         {
-            Debug.Log("Hit something:" + hit.transform.name + " Layer:" + hit.transform.gameObject.layer);
             if(hit.transform.gameObject.layer == backgroundLayer)
             {
                 Debug.Log("Moving Instiated Character to " + hit.point);
@@ -105,12 +103,12 @@ public class HandleInput : MonoBehaviour
             if (spawnedBackground == null)
             {
                 spawnedBackground = Instantiate(backgroundPrefab, hitPose.position, hitPose.rotation);
-                //spawnedBackground.transform.SetParent(sessionOrigin.trackablesParent, false);
-                //spawnedBackground.transform.localScale = Vector3.one;
+                spawner.SetBackgroundToSpawnOn(spawnedBackground.transform);
                 
                 sessionOrigin.MakeContentAppearAt(spawnedBackground.transform, hitPose.position, hitPose.rotation);
                 _instantiatedCharacter = Instantiate(characterPrefab, hitPose.position, hitPose.rotation);
                 _characterNavAgent = _instantiatedCharacter.GetComponentInChildren<NavMeshAgent>();
+                spawner.SetCharacter(_instantiatedCharacter.GetComponent<CharacterController>());
                 DisablePlanes();
             }
             else

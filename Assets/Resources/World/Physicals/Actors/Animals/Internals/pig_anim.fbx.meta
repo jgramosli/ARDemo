@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: db6dc78cb8b16cd4d8ea40c33a312359
+timeCreated: 1502953104
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: MESH_GROUP
+    100002: //RootNode
+    100004: pig_mesh
+    100006: RIG_GROUP
+    100008: skin_joint_group
+    100010: skin_L_B_ankle_jnt
+    100012: skin_L_B_ball_jnt
+    100014: skin_L_B_hip_jnt
+    100016: skin_L_B_knee_jnt
+    100018: skin_L_bot_eyelid_jnt
+    100020: skin_L_ear_drive_1_jnt
+    100022: skin_L_ear_drive_2_jnt
+    100024: skin_L_ear_drive_3_jnt
+    100026: skin_L_ear_drive_4_jnt
+    100028: skin_L_eye_jnt
+    100030: skin_L_F_ankle_jnt
+    100032: skin_L_F_hip_jnt
+    100034: skin_L_F_knee_jnt
+    100036: skin_L_top_eyelid_jnt
+    100038: skin_R_B_ankle_jnt
+    100040: skin_R_B_ball_jnt
+    100042: skin_R_B_hip_jnt
+    100044: skin_R_B_knee_jnt
+    100046: skin_R_bot_eyelid_jnt
+    100048: skin_R_ear_drive_1_jnt
+    100050: skin_R_ear_drive_2_jnt
+    100052: skin_R_ear_drive_3_jnt
+    100054: skin_R_ear_drive_4_jnt
+    100056: skin_R_eye_jnt
+    100058: skin_R_F_ankle_jnt
+    100060: skin_R_F_hip_jnt
+    100062: skin_R_F_knee_jnt
+    100064: skin_R_top_eyelid_jnt
+    100066: skin_snout_jnt
+    100068: skin_spine_1_root_jnt
+    100070: skin_spine_2_jnt
+    100072: skin_spine_3_chest_jnt
+    100074: skin_spine_4_neck_jnt
+    100076: skin_tail_drive_1_jnt
+    100078: skin_tail_drive_2_jnt
+    100080: skin_tail_drive_3_jnt
+    100082: skin_tail_drive_4_jnt
+    100084: skin_shadow_jnt
+    400000: MESH_GROUP
+    400002: //RootNode
+    400004: pig_mesh
+    400006: RIG_GROUP
+    400008: skin_joint_group
+    400010: skin_L_B_ankle_jnt
+    400012: skin_L_B_ball_jnt
+    400014: skin_L_B_hip_jnt
+    400016: skin_L_B_knee_jnt
+    400018: skin_L_bot_eyelid_jnt
+    400020: skin_L_ear_drive_1_jnt
+    400022: skin_L_ear_drive_2_jnt
+    400024: skin_L_ear_drive_3_jnt
+    400026: skin_L_ear_drive_4_jnt
+    400028: skin_L_eye_jnt
+    400030: skin_L_F_ankle_jnt
+    400032: skin_L_F_hip_jnt
+    400034: skin_L_F_knee_jnt
+    400036: skin_L_top_eyelid_jnt
+    400038: skin_R_B_ankle_jnt
+    400040: skin_R_B_ball_jnt
+    400042: skin_R_B_hip_jnt
+    400044: skin_R_B_knee_jnt
+    400046: skin_R_bot_eyelid_jnt
+    400048: skin_R_ear_drive_1_jnt
+    400050: skin_R_ear_drive_2_jnt
+    400052: skin_R_ear_drive_3_jnt
+    400054: skin_R_ear_drive_4_jnt
+    400056: skin_R_eye_jnt
+    400058: skin_R_F_ankle_jnt
+    400060: skin_R_F_hip_jnt
+    400062: skin_R_F_knee_jnt
+    400064: skin_R_top_eyelid_jnt
+    400066: skin_snout_jnt
+    400068: skin_spine_1_root_jnt
+    400070: skin_spine_2_jnt
+    400072: skin_spine_3_chest_jnt
+    400074: skin_spine_4_neck_jnt
+    400076: skin_tail_drive_1_jnt
+    400078: skin_tail_drive_2_jnt
+    400080: skin_tail_drive_3_jnt
+    400082: skin_tail_drive_4_jnt
+    400084: skin_shadow_jnt
+    4300000: pig_mesh
+    7400000: Activate
+    7400002: Idle
+    7400004: Walk
+    7400006: Break1
+    7400008: Break2
+    7400010: Break3
+    7400012: Run
+    7400014: Idle_Bob
+    9500000: //RootNode
+    13700000: pig_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pig_Material
+    second: {fileID: 2100000, guid: 99af83311691f3646acd6ad008c815a0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Activate
+      takeName: Activate
+      firstFrame: 0
+      lastFrame: 31.000002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Break1
+      takeName: Break1
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Break2
+      takeName: Break2
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Break3
+      takeName: Break3
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Bob
+      takeName: Idle_Bob
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
